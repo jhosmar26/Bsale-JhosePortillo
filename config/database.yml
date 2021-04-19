@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: ENV['CLEARDB_DATABASE_URL']
-  username: ENV['CLEARDB_DATABASE_USERNAME']
+  database: ENV['DATABASE_URL']
+  username: ENV['DATABASE_USERNAME']
   password: <%= ENV['BSALE_JHOSEPORTILLO_DATABASE_PASSWORD'] %>
