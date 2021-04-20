@@ -50,6 +50,6 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
-  database: <%= ENV['DATABASE_DATABASE'] %>
-  username: <%= ENV['DATABASE_USERNAME'] %>
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  database: Bsale_JhosePortillo_production
+  username: Bsale_JhosePortillo
+  password: <%= ENV['BSALE_JHOSEPORTILLO_DATABASE_PASSWORD'] %>
